@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #153D8A;
+}
+
+.bg-primary {
+    background-color: #153D8A !important;
+}
+
+.card-filter {
+    border: 1px solid #153D8A;
+
+}
+.skip-cont {
+    background-color: #153D8A;
+    position: absolute;
+}
+.skip-link {
+    font-size: 0;
+}
+
+.skip-link:focus {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+
+.card-filter h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #153D8A;
+}
