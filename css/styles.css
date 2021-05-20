@@ -7,18 +7,30 @@ h1 {
     color: #153D8A;
 }
 
+.inci-color{
+    color: #153D8A;
+    font-weight: 600;
+}
+
 .bg-primary {
     background-color: #153D8A !important;
 }
 
 .card-filter {
     border: 1px solid #153D8A;
-
 }
+
+
+
+.card-filter:hover {
+    background-color:#a8c4fa;
+}
+
 .skip-cont {
     background-color: #153D8A;
     position: absolute;
 }
+
 .skip-link {
     font-size: 0;
 }
@@ -34,3 +46,33 @@ h1 {
     text-align: center;
     color: #153D8A;
 }
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #153D8A;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.icon-search {
+    border: 1px solid red;
+    width: 25px;
+    position: relative;
+    top: -45px;
+    right: 10px;
+}
+
