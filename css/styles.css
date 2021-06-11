@@ -7,6 +7,11 @@ h1 {
     color: #153D8A;
 }
 
+p {
+    line-height: 2;
+    font-weight: 500;
+}
+
 .inci-color{
     color: #153D8A;
     font-weight: 600;
@@ -14,6 +19,10 @@ h1 {
 
 .bg-primary {
     background-color: #153D8A !important;
+}
+
+.border-inci {
+    border-color:  #153D8A !important;
 }
 
 .card-filter {
